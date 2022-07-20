@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./icofont/icofont.min.css" />
+    <script
+      src="https://kit.fontawesome.com/22503eb10e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/basic-common.css" />
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/common-banner.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/mediaquery.css" />
+    <title>Gymfit-contact</title>
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header>
+      <div class="header-container">
+        <a href="./index.html" target="_blank" class="logo"
+          ><h2>Gym<span>Fit</span></h2></a
+        >
+        <label for="btn" class="menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="btn" />
+
+        <nav>
+          <div class="nav-wrapper">
+            <ul class="main-list">
+              <li class="nav-list-item">
+                <a href="./index.html" target="_blank" class="nav-link">HOME</a>
+              </li>
+              <li class="dropdown nav-list-item">
+                <label for="btn-1" class="show nav-link"> PAGES.</label>
+                <a href="#" class="nav-link">PAGES.</a>
+                <input type="checkbox" id="btn-1" />
+                <ul class="dropdown-list center">
+                  <li>
+                    <a
+                      href="./about.html"
+                      target="_blank"
+                      class="dropdown-nav-link"
+                      >ABOUT</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./trainer.html"
+                      target="_blank"
+                      class="dropdown-nav-link"
+                      >TRAINER</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./course.html"
+                      target="_blank"
+                      class="dropdown-nav-link"
+                      >COURSES</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-list-item">
+                <a href="./service.html" target="_blank" class="nav-link"
+                  >SERVICES</a
+                >
+              </li>
+              <li class="nav-list-item">
+                <a href="./pricing.html" target="_blank" class="nav-link"
+                  >MEMBERSHIP</a
+                >
+              </li>
+              <li class="dropdown nav-list-item">
+                <label for="btn-2" class="show nav-link">BLOG.</label>
+                <a href="#" class="nav-link">BLOG.</a>
+                <input type="checkbox" id="btn-2" />
+                <ul class="dropdown-list">
+                  <li>
+                    <a
+                      href="./blog.html"
+                      target="_blank"
+                      class="dropdown-nav-link"
+                      >BLOG GRID</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-nav-link">BLOG SIDEBAR</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-nav-link">BLOG DETAILS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-list-item">
+                <a href="./contact.html" target="_blank" class="nav-link"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+            <div class="direct-contact" target="_blank">
+              <a href="tel:+23-345-67890">
+                <h3><i class="fa-solid fa-mobile-screen"></i>+23-563-5688</h3>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- BANNER START -->
+    <section class="common-banner">
+      <div class="container">
+        <div class="common-banner-wrapper">
+          <div class="common-banner-content">
+            <a href="./index.html" class="home-link">HOME</a>
+            <span class="divider">|</span>
+            <a href="./contact.html" class="about-link">CONTACT</a>
+            <h1>CONTACT US</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BANNER END -->
+
+    <!-- CONTACT-TITLE START -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact-brief-wrapper flex-c-w">
+          <div class="contact-brief-content title">
+            <h2>CONTACT US</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In error
+              reprehenderit quam enim obcaecati, repudiandae officia a cumque
+              nemo provident!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT-TITLE END -->
+
+    <!-- CONTACT FORM START -->
+    <section class="contact-form">
+      <div class="container">
+        <form class="message-form flex-c-w">
+          <div class="form-wrapper">
+            <div class="form-top">
+              <div class="form-name">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="form-email">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                />
+              </div>
+            </div>
+            <div class="form-bottom">
+              <div class="form-message">
+                <textarea
+                  id="form-message"
+                  placeholder="Your Message"
+                  rows="8"
+                ></textarea>
+              </div>
+            </div>
+            <div class="form-button">
+              <button class="button-btn">SEND MESSAGE</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- CONTACT FORM END -->
+
+    <!-- MAP START -->
+    <section class="map">
+      <div class="map-overlay">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.361280743092!2d-74.00832638434458!3d40.71006264567046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sin!4v1658233007290!5m2!1sen!2sin"
+          width="100%"
+          height="450px"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- MAP END -->
+
+    <!-- OVERLAY CARDS START -->
+    <section class="overlay-card">
+      <div class="container">
+        <div class="overlay-card-wrapper">
+          <div class="overlay-card-inner inner">
+            <div class="overlay-card-icon">
+              <i class="fa-solid fa-mobile"></i>
+            </div>
+            <span>Call us</span>
+            <div class="overlay-card-text">
+              <p>+23 45 67890</p>
+              <span>9:00 am - 17:00 pm</span>
+            </div>
+          </div>
+          <div class="overlay-card-inner inner">
+            <div class="overlay-card-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <span>Email at</span>
+            <div class="overlay-card-text">
+              <p>support@themefisher.com</p>
+              <p>support@gymfit.com</p>
+            </div>
+          </div>
+          <div class="overlay-card-inner inner">
+            <div class="overlay-card-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <span>Location</span>
+            <div class="overlay-card-text">
+              <p>Fitness Center Bedford Heights,North London, USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OVERLAY CARDS END -->
+
+    <!-- FOOTER START -->
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="gymfit">
+            <h2>GYMFIT</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque
+              cumque dolorum.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="recent-posts">
+            <h4>RECENTS POSTS</h4>
+            <div class="post">
+              <a href="./blog-single.html" target="_blank"
+                ><p>Claritas est etiam processus dynamicus</p></a
+              >
+              <span>30 february 2019</span>
+            </div>
+            <div class="post margin">
+              <a href="./blog-single.html" target="_blank"
+                ><p>Claritas est etiam processus dynamicus</p></a
+              >
+              <span>30 february 2019</span>
+            </div>
+          </div>
+          <div class="quick-links">
+            <h4>QUICK LINKS</h4>
+            <ul class="quick-link-list">
+              <li>
+                <a href="./about.html" target="_blank"
+                  ><i class="fa-solid fa-angles-right"></i> About Us</a
+                >
+              </li>
+              <li>
+                <a href="./service.html" target="_blank"
+                  ><i class="fa-solid fa-angles-right"></i> Services</a
+                >
+              </li>
+              <li>
+                <a href="./pricing.html" target="_blank"
+                  ><i class="fa-solid fa-angles-right"></i> Membership</a
+                >
+              </li>
+              <li>
+                <a href="./course.html" target="_blank"
+                  ><i class="fa-solid fa-angles-right"></i> Courses</a
+                >
+              </li>
+              <li>
+                <a href="./contact.html" target="_blank"
+                  ><i class="fa-solid fa-angles-right"></i> Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="home-location">
+            <h4>HOME LOCATION</h4>
+            <p>Washington 6036 Richmond hwy., Alexandria, VA USA 22303</p>
+            <span>+1 (409) 987–5874</span>
+            <span>info@demolink.org</span>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="copyright-text">
+            <p>
+              Gymfit © 2019 , Theme By
+              <a href="https://themefisher.com/" target="_blank"
+                >Themefisher.com</a
+              >
+            </p>
+          </div>
+          <div class="social-connect">
+            <ul class="social-icons-list">
+              <li>
+                <a href="https://www.facebook.com/themefisher" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/themefisher" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/themefisher/" target="_blank"
+                  ><i class="fa-brands fa-github-alt"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
+</html>

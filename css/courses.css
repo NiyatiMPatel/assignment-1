@@ -1,0 +1,36 @@
+/* <!-- COURSES START --> */
+
+.courses {
+  background: #f0f2f4;
+}
+
+.courses-list-wrapper {
+  justify-content: space-between;
+}
+
+.courses-info {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+.courses-info h4 {
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  color: #232323;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  transition: all 600ms ease;
+}
+
+.courses-info h4:hover {
+  color: #f5634b;
+}
+
+.courses-info span {
+  display: inline-block;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+/* <!-- COURSES END --> */

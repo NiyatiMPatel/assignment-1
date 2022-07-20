@@ -1,0 +1,172 @@
+/* ALL & BODY */
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  line-height: 1.8;
+}
+
+/* HEAD TAGS - ANCHOR TAG - LIST TAG - CONTAINER */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* BUTTON EFFECT AND HOVER */
+
+.button {
+  display: inline-block;
+}
+.button-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+  color: #fff;
+  font-size: 14px;
+  padding: 1.125rem 2.1875rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.button-btn:hover {
+  background: linear-gradient(90deg, #fe9418 0%, #f5634b 100%);
+  transform: translateY(-5px);
+}
+
+/* BACKGROUND OVERLAY AND TEXT HOVER EFFECT */
+
+.inner::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+  border-color: #f5634b;
+  transition: all 600ms ease;
+  z-index: -1;
+}
+
+.inner:hover::before {
+  height: 100%;
+}
+
+.inner h3 {
+  font-size: 27px;
+  line-height: 38px;
+  color: #232323;
+  transition: all 600ms ease;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.inner p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 600ms ease;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.inner:hover h3,
+.inner:hover p {
+  color: #fff;
+  z-index: 1;
+}
+
+/* IMAGE HOVER EFFECT */
+
+.inner-image {
+  width: 100%;
+  overflow: hidden;
+  /* border-radius: 0.25rem; */
+  position: relative;
+}
+
+.inner-image img {
+  width: 100%;
+  display: block;
+  /* border-radius: 0.25rem; */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 600ms ease;
+}
+.wrapper-hover:hover .inner-image img {
+  transform: scale(1.1);
+}
+
+/* SECTIONS WITH PADDING 100PX 0 */
+.padding-100 {
+  padding: 100px 0;
+}
+
+/* SECTION TITLE INDEX-COURSE-BUTTON */
+.title,
+.title-common,
+.button-content-width {
+  width: 66.667%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 4.375rem;
+}
+
+.button-content-width {
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+.title::before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 4px;
+  background: #f5634b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.title h2 {
+  font-size: 2.375rem;
+  color: #232323;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.title p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* FLEX JC-CENTER WRAP */
+
+.flex-c-w {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

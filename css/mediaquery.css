@@ -1,0 +1,274 @@
+/* <!-- MEDIA QUERY START --> */
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  /* <!-- HEADER START --> */
+
+  .header-container {
+    padding: 0;
+  }
+
+  .menu {
+    display: block;
+    font-size: 1.5625rem;
+    line-height: 1.2;
+    border: 1px solid white;
+    background: white;
+    padding: 2px 10px;
+  }
+  .logo {
+    width: 28%;
+  }
+
+  .show {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav,
+  .show + a,
+  .dropdown-list {
+    display: none;
+  }
+
+  [id^="btn"]:checked + nav,
+  [id^="btn"]:checked + .dropdown-list {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .main-list,
+  .nav-wrapper {
+    flex-direction: column;
+  }
+  .nav-wrapper {
+    background: #181a23;
+    padding-bottom: 8px;
+  }
+
+  .direct-contact {
+    margin-top: 10px;
+  }
+
+  .main-list,
+  .dropdown {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-list li {
+    padding: 8px 0px;
+  }
+
+  .dropdown-list {
+    width: 100%;
+    position: static;
+    transform: none;
+    transition: none;
+    text-align: center;
+  }
+
+  /* WIDTH 100%  */
+
+  .banner-content,
+  .features-inner,
+  .about-inner,
+  .offer-content,
+  .service-brief-content,
+  .services-inner,
+  .courses-button-content,
+  .about-detail-image,
+  .about-detail-content,
+  .choose-us-inner,
+  .blog-list,
+  .contact-brief-content,
+  .form-wrapper,
+  .form-name,
+  .form-email,
+  .overlay-card-inner,
+  .courses-brief-content,
+  .courses-list,
+  .courses-list-no-bg,
+  .gallery-brief-content,
+  .gallery-inner,
+  .testimonial-brief-content,
+  .testimonial-list-content,
+  .trainer-inner,
+  .trainer-profile,
+  .trainer-intro,
+  .package-inner,
+  .package-brief-content,
+  .our-services-brief-content,
+  .our-services-inner,
+  .our-services-profile,
+  .our-services-intro,
+  .gymfit,
+  .recent-posts,
+  .quick-links,
+  .home-location,
+  .copyright-text,
+  .social-connect {
+    width: 100%;
+  }
+
+  /* <!-- BANNER START --> */
+
+  .banner-content h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  /* <!-- BANNER END --> */
+
+  /* <!-- ABOUT START --> */
+  .about .container {
+    padding: 0;
+  }
+
+  .image,
+  .about-text {
+    padding: 0;
+  }
+
+  .about-text {
+    margin-top: 2.5rem;
+    padding-left: 15px;
+  }
+
+  /* <!-- ABOUT END --> */
+
+  /* <!-- OFFER START --> */
+
+  .offer-content h2,
+  .offer-content h2 span {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+
+  /* <!-- OFFER END --> */
+
+  /* <!-- SERVICES START --> */
+
+  .services-inner-content i {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+
+  /* <!-- SERVICES END --> */
+
+  /* <!-- TESTIMONIAL END --> */
+  .testimonial-list-content i {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+  /* <!-- TESTIMONIAL END --> */
+  /* <!-- INDEX COURSE START --> */
+  .courses-list {
+    margin-bottom: 3rem;
+  }
+  /* <!-- INDEX COURSE END --> */
+
+  /* <!-- COMMON BANNER START --> */
+  .common-banner-content h1 {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+  /* <!-- COMMON BANNER END --> */
+
+  /* <!-- ABOUT DETAILS START --> */
+
+  .extra-top {
+    margin-top: 0;
+  }
+
+  .res-margin-top {
+    margin-top: 3rem;
+  }
+
+  .est {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+  /* <!-- ABOUT DETAILS END --> */
+
+  /* <!-- WHY CHOOSE US START --> */
+
+  .choose-us-icons i {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+  /* <!-- WHY CHOOSE US END --> */
+
+  /* TRAINER */
+
+  .trainer-intro {
+    padding: 1.5rem;
+  }
+
+  /* COURSES START */
+  .courses-button-content {
+    margin-top: 3rem;
+  }
+
+  /* COURSES END */
+
+  /* PRICING START */
+  .package-inner {
+    margin-bottom: 1.5rem;
+  }
+
+  .package-inner h3 {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+  /* PRICING END */
+
+  /* OUR SERVICES START */
+
+  .our-services-intro {
+    margin-top: 1.25rem;
+  }
+
+  .our-services-intro {
+    padding-right: 0;
+  }
+  /* OUR SERVICES END */
+
+  /* CONTACT  START*/
+  .overlay-card-inner {
+    margin-bottom: 1.5rem;
+  }
+
+  .overlay-card-icon {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+  }
+
+  .overlay-card-text p,
+  .overlay-card-text span {
+    font-size: 1rem;
+  }
+  /* CONTACT END */
+
+  /* <!-- FOOTER START --> */
+  .gymfit,
+  .recent-posts,
+  .quick-links,
+  .home-location,
+  .copyright-text,
+  .social-connect {
+    width: 100%;
+  }
+
+  .gymfit,
+  .recent-posts,
+  .quick-links {
+    margin-bottom: 3rem;
+  }
+  /* <!-- FOOTER END --> */
+}
+
+/* <!-- MEDIA QUERY END --> */

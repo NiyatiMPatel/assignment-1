@@ -1,0 +1,132 @@
+/* <!-- PRICE NO BACKGROUND START --> */
+
+.package-w-bg {
+  background: #f0f2f4;
+}
+
+.package-plans {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.package-inner {
+  width: 32%;
+  padding: 3rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.package-inner h4 {
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+  color: #232323;
+  margin-bottom: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.package-inner h4 span {
+  font-size: 0.875rem;
+  color: #f8f9fa;
+  background: #343a40;
+  padding: 0.25rem 0.5rem;
+}
+
+.package-inner h3 {
+  position: relative;
+  font-size: 3.5rem;
+  line-height: 4.125rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.package-inner h3 sup {
+  position: absolute;
+  font-size: 0.875rem;
+  top: 20px;
+  left: 0;
+  line-height: 0;
+}
+
+.package-inner h3 sub {
+  position: relative;
+  font-size: 0.8125rem;
+  bottom: -0.25rem;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.plan-info {
+  padding: 1.25rem;
+}
+
+.plan-list {
+  margin-bottom: 1.5rem;
+}
+
+.plan-list li {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.plan-list li.tick i {
+  color: #f5634b;
+}
+
+.plan-list li i {
+  margin-right: 5px;
+}
+
+.plan-list li.tick {
+  color: #232323;
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.button-btn-2 {
+  background: transparent;
+  color: #232323;
+  font-size: 14px;
+  padding: 1.125rem 2.1875rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border: 2px solid #f5634b;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.button-btn-2:hover {
+  background: #f5634b;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+/* <!-- PRICE NO BACKGROUND END --> */
+
+/* <!-- PRICE WITH BACKGROUND START --> */
+
+.inner-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/img-7.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.inner-bg h4 {
+  color: #fff;
+}
+
+.list-bg li {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-bg li.tick {
+  color: #fff;
+}
+
+.btn-bg {
+  color: #fff;
+}

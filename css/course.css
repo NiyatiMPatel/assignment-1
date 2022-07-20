@@ -1,0 +1,33 @@
+/* <!-- COURSES START --> */
+
+.courses {
+  padding-bottom: 76px;
+}
+.courses-list-no-bg {
+  border: 1px solid #ddd;
+  width: 31.5%;
+  margin-bottom: 3rem;
+}
+
+.schedule {
+  margin-top: 0.5rem;
+}
+
+.clock-icon i {
+  color: #f5634b;
+  margin-right: 2px;
+}
+
+.days {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.time {
+  font-size: 1rem;
+  color: #232323;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+/* <!-- COURSES END --> */

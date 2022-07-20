@@ -1,0 +1,94 @@
+/* <!-- TRAINER START --> */
+
+.trainers {
+  background: #f0f2f4;
+  padding-bottom: 76px;
+}
+.trainer-list,
+.trainer-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.trainer-inner {
+  width: 49%;
+  margin-bottom: 1.5rem;
+}
+
+.trainer-profile,
+.trainer-intro {
+  width: 50%;
+}
+
+.trainer-intro {
+  padding: 2rem 1.5rem;
+}
+.trainer-intro h3 {
+  font-size: 1.75rem;
+  line-height: 2.375rem;
+  color: #f5634b;
+  margin-bottom: 0.375rem;
+}
+
+.trainer-intro h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #232323;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.trainer-intro h6::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 26px;
+  height: 4px;
+  background: #ddd;
+  transition: all 600ms ease;
+}
+
+.trainer-intro:hover h6::after {
+  width: 100%;
+  background: #f5634b;
+}
+
+.trainer-intro p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 3rem;
+}
+
+.connect-social {
+  display: flex;
+  gap: 0.8rem;
+  transition: all 600ms ease;
+}
+
+.connect-social li {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.connect-social li a {
+  color: #232323;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.connect-social li:hover {
+  background: #f5634b;
+  border: 1px solid #f5634b;
+  transform: translateY(8px);
+}
+.connect-social li:hover a {
+  color: #fff;
+}

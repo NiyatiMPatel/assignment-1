@@ -1,0 +1,214 @@
+/* <!-- BANNER START --> */
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/bg-7.jpg") no-repeat 0% 30%;
+  background-size: cover;
+  padding: 180px 0;
+}
+
+.fitness-club {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 3px 15px 5px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.banner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-content {
+  width: 66.667%;
+}
+
+.banner-content h1 span {
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  color: #f5634b;
+}
+
+.banner-content h1 {
+  font-size: 5.9375rem;
+  color: #fff;
+  margin: 1.5rem 0 3rem;
+}
+
+.button-btn span {
+  margin-left: 1rem;
+}
+/* <!-- BANNER END --> */
+
+/* <!-- FEATURES START --> */
+
+.features {
+  margin-top: -80px;
+}
+
+.features-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.features-inner {
+  width: 31%;
+  padding: 3rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  font-size: 130px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.features-inner a {
+  color: #f5634b;
+  transition: all 600ms ease;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.features-inner:hover a {
+  color: #fff;
+  z-index: 1;
+}
+
+/* <!-- FEATURES END --> */
+
+/* <!-- ABOUT START --> */
+
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-inner {
+  width: 50%;
+  padding-right: 1rem;
+}
+
+.about-text {
+  padding-left: 1.5rem;
+}
+
+.about-text h2 {
+  font-size: 38px;
+  line-height: 1.2;
+  color: #232323;
+  margin: 0.25rem 0 1rem 0;
+}
+.about-text h2 span {
+  color: #f5634b;
+  line-height: 1.2;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 1.5rem 0;
+}
+
+/* <!-- ABOUT END --> */
+
+/* <!-- OFFER START --> */
+.offer {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/slide2.jpg") fixed center no-repeat;
+}
+
+.offer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.offer-content {
+  width: 66.667%;
+}
+
+.offer-content span {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.offer-content h2 {
+  font-size: 3.5rem;
+  line-height: 4.125rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.offer-content h2 span {
+  font-size: 3.5rem;
+  line-height: 4.125rem;
+  font-weight: 700;
+  color: #f5634b;
+}
+
+/* <!-- OFFER END --> */
+
+/* <!-- SERVICES START --> */
+
+.services-list-wrapper,
+.gallery-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* <!-- SERVICES + GALLERY + TESTIMONIAL + COURSES COMMON END --> */
+
+.services-inner {
+  width: 33.33%;
+  position: relative;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.services-inner-content i {
+  color: #f5634b;
+  font-size: 3.5rem;
+  line-height: 4.125rem;
+}
+
+.services-inner-content h4 {
+  color: #232323;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.inner:hover .services-inner-content i,
+.inner:hover .services-inner-content h4 {
+  color: #fff;
+}
+/* <!-- SERVICES END --> */
+
+/* <!-- COURSES START --> */
+
+.courses-list {
+  width: 22.98%;
+}
+
+.courses-list {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background: #fff;
+}
+
+/* <!-- COURSES END --> */
