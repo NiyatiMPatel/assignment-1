@@ -34,6 +34,7 @@
 
 .banner-content h1 {
   font-size: 5.9375rem;
+  line-height: 5.9375rem;
   color: #fff;
   margin: 1.5rem 0 3rem;
 }
@@ -56,7 +57,7 @@
 }
 
 .features-inner {
-  width: 31%;
+  width: 31.5%;
   padding: 3rem;
   background: #fff;
   border-radius: 0.25rem;
@@ -96,12 +97,7 @@
 }
 
 .about-inner {
-  width: 50%;
-  padding-right: 1rem;
-}
-
-.about-text {
-  padding-left: 1.5rem;
+  width: 48%;
 }
 
 .about-text h2 {

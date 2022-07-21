@@ -1,8 +1,9 @@
 /* <!-- MEDIA QUERY START --> */
 
-@media screen and (min-width: 320px) and (max-width: 780px) {
-  /* <!-- HEADER START --> */
-
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+  header {
+    padding: 0.5rem 1rem;
+  }
   .header-container {
     padding: 0;
   }
@@ -25,6 +26,8 @@
 
   nav {
     width: 100%;
+    height: 300px;
+    overflow: scroll;
   }
 
   nav,
@@ -124,9 +127,6 @@
   /* <!-- BANNER END --> */
 
   /* <!-- ABOUT START --> */
-  .about .container {
-    padding: 0;
-  }
 
   .image,
   .about-text {
@@ -272,3 +272,250 @@
 }
 
 /* <!-- MEDIA QUERY END --> */
+
+@media screen and (min-width: 480px) and (max-width: 792px) and (orientation: landscape) {
+  .container {
+    max-width: 720px;
+  }
+
+  /* HEADER START */
+
+  header {
+    padding: 0.5rem 0;
+  }
+  nav {
+    height: 300px;
+    overflow: scroll;
+  }
+
+  .menu {
+    display: block;
+    font-size: 1.5625rem;
+    line-height: 1.2;
+    border: 1px solid white;
+    background: white;
+    padding: 2px 10px;
+  }
+  .logo {
+    width: 28%;
+  }
+
+  .show {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+  }
+
+  nav,
+  .show + a,
+  .dropdown-list {
+    display: none;
+  }
+
+  [id^="btn"]:checked + nav,
+  [id^="btn"]:checked + .dropdown-list {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .main-list,
+  .nav-wrapper {
+    flex-direction: column;
+  }
+  .nav-wrapper {
+    background: #181a23;
+    padding-bottom: 8px;
+  }
+
+  .direct-contact {
+    margin-top: 10px;
+  }
+
+  .main-list,
+  .dropdown {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-list li {
+    padding: 8px 0px;
+  }
+
+  .dropdown-list {
+    width: 100%;
+    position: static;
+    transform: none;
+    transition: none;
+    text-align: center;
+  }
+
+  /* HEADER END */
+
+  /* FOOTER START */
+
+  .recent-posts,
+  .gymfit {
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+
+  .home-location,
+  .quick-links {
+    width: 41.667%;
+    margin-bottom: 3rem;
+  }
+
+  /* FOOTER END */
+
+  /* COMMON TILTE START */
+
+  .title,
+  .title-common {
+    width: 100%;
+  }
+
+  /* COMMON TITLE END */
+
+  /* INDEX.HTML FEATURES START */
+
+  .features-inner {
+    width: 47.85%;
+  }
+
+  /* INDEX.HTML FEATURES END */
+
+  /* INDEX.HTML ABOUT START */
+  .about-inner {
+    width: 100%;
+  }
+
+  .about-text {
+    padding-left: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  /* INDEX.HTML ABOUT END */
+
+  /* INDEX.HTML OFFER START */
+
+  .offer-content {
+    width: 100%;
+  }
+
+  /* INDEX.HTML OFFER END */
+
+  /* INDEX.HTML SERVICE START */
+
+  .services-inner.inner {
+    width: 50%;
+  }
+
+  .services-inner-content i {
+    font-size: 56px;
+    line-height: 66px;
+  }
+  /* INDEX.HTML SERVICE END */
+
+  /* INDEX.HTML GALLERY START */
+
+  .gallery-inner {
+    width: 50%;
+  }
+  /* INDEX.HTML GALLERY END */
+
+  /* INDEX.HTML COURSES START */
+
+  .courses-list {
+    width: 47.85%;
+    margin-bottom: 3rem;
+  }
+
+  /* INDEX.HTML COURSES END */
+
+  /* ABOUT.HTML START */
+
+  .about-detail-content {
+    width: 100%;
+  }
+
+  .extra-top {
+    margin-top: 0;
+  }
+
+  .about-detail-brief {
+    margin-top: 3rem;
+  }
+
+  .choose-us-inner {
+    width: 47.85%;
+  }
+
+  /* ABOUT.HTML END */
+
+  /* TRAINER.HTML */
+  .trainer-inner {
+    width: 100%;
+  }
+
+  /* TRAINER.HTML END */
+
+  /* COURSE.HTML START */
+
+  .courses-list-no-bg.wrapper-hover {
+    width: 47.8%;
+  }
+
+  /* COURSE.HTML END */
+
+  /* SERVICE.HTML START */
+
+  .our-services-inner {
+    width: 47.8%;
+  }
+
+  .our-services-profile,
+  .our-services-intro {
+    width: 100%;
+  }
+
+  .our-services-intro {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  /* SERVICE.HTML END */
+
+  /* PRICING.HTML START */
+
+  .package-plans {
+    justify-content: center;
+  }
+  .package-inner {
+    width: 47.8%;
+    margin-bottom: 1.5rem;
+  }
+  .package-inner:first-child {
+    margin-right: 1.85rem;
+  }
+
+  /* PRICING.HTML END */
+
+  /* BLOG.HTML START */
+  .blog-list {
+    width: 47.8%;
+  }
+  /* BLOG.HTML END */
+
+  /* CONTACT.HTML START */
+  .overlay-card-inner {
+    width: 47.8%;
+    margin-bottom: 1.5rem;
+  }
+  /* CONTACT.HTML END */
+}

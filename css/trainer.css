@@ -8,6 +8,7 @@
 .trainer-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .trainer-intro {
-  padding: 2rem 1.5rem;
+  padding: 1.25rem 1.5rem;
 }
 .trainer-intro h3 {
   font-size: 1.75rem;
