@@ -371,6 +371,11 @@
     margin-bottom: 3rem;
   }
 
+  .copyright-text,
+  .social-connect {
+    width: 100%;
+  }
+
   /* FOOTER END */
 
   /* COMMON TILTE START */
