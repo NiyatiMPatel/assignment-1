@@ -275,7 +275,7 @@
 
 /* <!-- MEDIA QUERY END --> */
 
-@media screen and (min-width: 480px) and (max-width: 792px) and (orientation: landscape) {
+@media screen and (min-width: 480px) and (max-width: 1900px) and (orientation: landscape) {
   .container {
     max-width: 720px;
   }
